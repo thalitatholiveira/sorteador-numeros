@@ -1,0 +1,43 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+    color: yellowgreen;
+}
+
+.input {
+    height: 2rem;
+    width: 3rem;
+    background-color: rgb(210, 236, 205);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+}
+
+.botao {
+    background-color: yellowgreen;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    height: 2.5rem;
+    width: 9rem;
+    font-weight: bolder;
+}
+
+.botao:hover {
+    background-color: rgb(228, 169, 7);
+}
