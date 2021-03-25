@@ -2,6 +2,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
 .container {
     display: flex;
     flex-direction: column;
