@@ -26,6 +26,11 @@ a {
     text-align: center;
 }
 
+.range-container {
+    display: flex;
+
+}
+
 .input {
     height: 2rem;
     width: 3rem;
@@ -35,6 +40,7 @@ a {
     border-radius: 5px;
     outline: none;
     text-align: center;
+    margin: 0 0.5rem;
 }
 
 .botao {
@@ -55,4 +61,15 @@ a {
 
 .icon-reference {
     font-size: smaller;   
+}
+
+.result-container {
+    display: flex;
+}
+
+.result-container p {
+    background-color: rgb(210, 236, 205);
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
 }
