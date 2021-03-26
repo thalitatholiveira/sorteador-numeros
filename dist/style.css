@@ -28,7 +28,6 @@ a {
 
 .range-container {
     display: flex;
-
 }
 
 .input {
@@ -43,7 +42,7 @@ a {
     margin: 0 0.5rem;
 }
 
-.botao {
+.button-design {
     background-color: #459C41;
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -55,12 +54,8 @@ a {
     width: 9rem;
 }
 
-.botao:hover {
+.button-design:hover {
     background-color: rgb(228, 169, 7);
-}
-
-.icon-reference {
-    font-size: smaller;   
 }
 
 .result-container {
@@ -72,4 +67,8 @@ a {
     margin: 0 1rem;
     padding: 0.5rem 1rem;
     border-radius: 10px;
+}
+
+.icon-reference {
+    font-size: smaller;   
 }
