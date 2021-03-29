@@ -32,6 +32,13 @@ function onClickButton() {
 }
 
 function clearButton() {
+    clearAmount = document.querySelector('#amount')
+    clearMinimo = document.querySelector('#minimo')
+    clearMaximo = document.querySelector('#maximo')
+    clearAmount.value = ""
+    clearMinimo.value = ""
+    clearMaximo.value = ""
+
     document.getElementById("result").innerHTML = null
     hasButtonClicked = false;
 }
