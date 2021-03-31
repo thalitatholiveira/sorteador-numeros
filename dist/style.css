@@ -62,13 +62,20 @@ a {
     background-color: rgb(228, 169, 7);
 }
 
+.result-block {
+    width: 50vw;
+    height: auto;
+}
+
 .result-container {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .result-container p {
     background-color: rgb(210, 236, 205);
-    margin: 0 1rem;
+    margin: 0.5rem 0.5rem;
     padding: 0.5rem 1rem;
     border-radius: 10px;
 }
@@ -78,15 +85,16 @@ a {
     color: rgb(0, 0, 0);   
 }
 
-.footer{
+.footer {
+    background-color: white;
     display: flex;
     flex-direction: column;
 
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 40px;
-    position: absolute;
+    width: 100vw;
+    height: 5vh;
+    position: fixed;
     bottom: 0;
     left: 0;
 }
