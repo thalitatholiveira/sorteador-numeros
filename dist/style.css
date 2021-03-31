@@ -18,16 +18,14 @@ a {
 
 .description {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 37rem;
     height: 1.3rem;
 
     background-color: rgb(31, 29, 29);
     border: none;
-    /*border-radius: 20px;*/
     color: white;
-    text-align: center;
 }
 
 .range-container {

@@ -1,7 +1,4 @@
-const hasButtonClicked = false;
-
 function onClickButton() {
-    if (hasButtonClicked == true) return;
     const amountSort = document.getElementById("amount").value;
     let min = document.getElementById("minimo").value;
     let max = document.getElementById("maximo").value;
@@ -27,8 +24,6 @@ function onClickButton() {
             ${htmlSortedNumbers}
         </div>
     `;
-
-    hasButtonClicked = true;
 }
 
 function clearButton() {
@@ -40,5 +35,4 @@ function clearButton() {
     clearMaximo.value = ""
 
     document.getElementById("result").innerHTML = null
-    hasButtonClicked = false;
 }
