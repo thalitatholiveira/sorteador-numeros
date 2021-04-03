@@ -22,7 +22,12 @@
 <body>
     <!--Container que centraliza todo o site-->
     <div class="container">
-        <img src="imagens/sorteador-logo.png" alt="Logo">
+        <picture>
+            <source media="(max-width: 500px)" srcset="imagens/sorteador-logo-p.png" type="image/png">
+            <source media="(max-width: 650px)" srcset="imagens/sorteador-logo-m.png" type="image/png">
+            <img src="imagens/sorteador-logo.png" alt="Logo">
+        </picture>
+
         <br>
         <p class="description">Insira abaixo o intervalo de números que deseja sortear. Boa sorte!</p>
         <br>
