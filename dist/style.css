@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #fff8f2;
 }
 
 a {
@@ -23,8 +24,9 @@ a {
     width: 37rem;
     height: 1.3rem;
 
-    background-color: rgb(31, 29, 29);
+    background-color: #3d1f08;
     border: none;
+    border-radius: 15px;
     color: white;
 }
 
@@ -35,7 +37,7 @@ a {
 .input {
     height: 2rem;
     width: 3rem;
-    background-color: rgb(210, 236, 205);
+    background-color: rgb(221, 221, 221);
     font-weight: bolder;
     border: none;
     border-radius: 5px;
@@ -45,7 +47,7 @@ a {
 }
 
 .button-design {
-    background-color: #459C41;
+    background-color: #94150D;
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
@@ -57,7 +59,7 @@ a {
 }
 
 .button-design:hover {
-    background-color: rgb(228, 169, 7);
+    background-color: rgb(226, 147, 0);
 }
 
 .result-block {
@@ -72,7 +74,7 @@ a {
 }
 
 .result-container p {
-    background-color: rgb(210, 236, 205);
+    background-color: rgb(221, 221, 221);
     margin: 0.5rem 0.5rem;
     padding: 0.5rem 1rem;
     border-radius: 10px;
@@ -84,7 +86,7 @@ a {
 }
 
 .footer {
-    background-color: white;
+    background-color: #FFF0E2;
     display: flex;
     flex-direction: column;
 
