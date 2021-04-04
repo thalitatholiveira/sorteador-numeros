@@ -10,8 +10,10 @@ function onClickButton() {
 
     if (amountSort > max) {
         alert('Não é possível sortear uma quantidade de números maior do que o intervalo do sorteio. Tente novamente!')
-    } else if (amountSort > 1000) {
-        alert('A quantidade de números a sortear deve estar entre 1 e 1000. Tente novamente!')
+    } else if (amountSort > 999) {
+        alert('A quantidade de números a sortear deve estar entre 1 e 999.')
+    } else if (max > 999999) {
+        alert('O intervalo numérico deve estar entre 0 e 999999.')
     } else {    
         for (let i = 0; i < amountSort; i++) {
             const sortedNumber = Math.floor(Math.random() * (max - min + 1)) + min;   
