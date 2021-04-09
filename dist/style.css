@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Afton James';
+    src: url(fonts/Afton\ James.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Aleijadinho';
+    src: url(fonts/ALEIJADI.OTF) format('opentype');
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #fff8f2;
@@ -17,12 +27,37 @@ a {
     align-items: center;
 }
 
+.pic {
+    margin: 0;
+}
+
+.sorteador {
+    margin: 0;
+    height: 13vh;
+    line-height: 10vh;
+
+    font-family: 'Afton James', serif;
+    font-size: 6.5em;
+    color: #94150D;
+}
+
+.de-numeros{
+    margin: 0;
+    line-height: 7vh;
+
+    font-family: 'Aleijadinho', serif;
+    font-size: 3em;
+    color: #94470D;
+}
+
 .description {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 37rem;
-    height: 1.3rem;
+    text-align: center;
+    width: 37em;
+    height: 1.3em;
+    margin: 25px;
 
     background-color: #3d1f08;
     border: none;
@@ -35,9 +70,9 @@ a {
 }
 
 .input {
-    height: 2rem;
-    width: 3rem;
-    background-color: rgb(221, 221, 221);
+    height: 2.5em;
+    width: 3.5em;
+    background-color: #dddddd;
     font-weight: bolder;
     border: none;
     border-radius: 5px;
@@ -59,7 +94,7 @@ a {
 }
 
 .button-design:hover {
-    background-color: rgb(226, 147, 0);
+    background-color: #e29300;
 }
 
 .result-block {
@@ -74,7 +109,7 @@ a {
 }
 
 .result-container p {
-    background-color: rgb(221, 221, 221);
+    background-color: #dddddd;
     margin: 0.5rem 0.5rem;
     padding: 0.5rem 1rem;
     border-radius: 10px;
@@ -82,7 +117,7 @@ a {
 
 .icon-reference {
     font-size: smaller;
-    color: rgb(0, 0, 0);   
+    color: #000000;   
 }
 
 .footer {
