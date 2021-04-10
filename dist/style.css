@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Afton James';
-    src: url('fonts/Afton James.otf') format('opentype');
+    src: url('./fonts/Afton James.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Aleijadinho';
-    src: url('fonts/ALEIJADI.OTF') format('opentype');
+    src: url('./fonts/ALEIJADI.OTF') format('opentype');
 }
 
 body {
@@ -27,7 +27,7 @@ a {
     align-items: center;
 }
 
-.pic {
+/*.pic {
     margin: 0;
 }
 
@@ -48,7 +48,7 @@ a {
     font-family: 'Aleijadinho', serif;
     font-size: 3em;
     color: #94470D;
-}
+}*/
 
 .description {
     display: flex;
