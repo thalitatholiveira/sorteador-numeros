@@ -113,11 +113,6 @@ a {
     border-radius: 10px;
 }
 
-.icon-reference {
-    font-size: smaller;
-    color: #000000;   
-}
-
 .footer {
     background-color: #fff8f2;
     display: flex;
@@ -130,4 +125,6 @@ a {
     position: fixed;
     bottom: 0;
     left: 0;
+
+    font-size: 13px;
 }
