@@ -22,21 +22,6 @@
 <body>
     <!--Container que centraliza todo o site-->
     <div class="container">
-        
-        <!--TREVO - logo responsiva (imagem)-->
-        <!--<picture class="pic">
-            <source media="(max-width: 600px)" srcset="imagens/trevo-p.png" type="image/png">
-            <source media="(max-width: 1200px)" srcset="imagens/trevo-m.png" type="image/png">
-            <img src="imagens/trevo-g.png" alt="Logo">
-        </picture>-->
-
-        <!--TREVO - logo não-responsiva (imagem)-->
-        <!--<img src="imagens/trevo-g.png" alt="Logo: um círculo amarelo com um trevo-de-quatro-folhas na parte de dentro" class="pic">
-        <br>-->
-
-        <!-- TÍTULO (HTML e CSS)-->
-        <!--<p class="sorteador">Sorteador</p>
-        <p class="de-numeros">de nú meros</p>-->
 
         <!--TREVO + TÍTULO - logo responsiva (imagem)-->
         <picture class="pic">
@@ -45,19 +30,32 @@
             <img src="imagens/logo-g.png" alt="Logo">
         </picture>
 
-        <!--Descrição e espaços para inserção de dados pelo usuário-->
-        <p class="description">Insira abaixo o intervalo de números que deseja sortear. Boa sorte!</p>
-        <div class="range-container">
-            <p>Sortear<input type="number" class="input" id="amount"></p>
-            <p>número(s) entre<input type="number" name="minimo" class="input" id="minimo"></p>
-            <p>e <input type="number" name="maximo" class="input" id="maximo"></p>
-        </div>
-        <br>
+        <!--Espaço para inserção de dados pelo usuário-->
+        <div class="input-container">
+            <div class="description">
+                <p>Insira abaixo o intervalo numérico que deseja sortear. Boa sorte!</p>
+            </div>
 
-        <!--Botões-->
-        <div>
-            <button class="button-design" onclick="onClickButton()">Sortear</button>
-            <button class="button-design" onClick="clearButton()">Limpar</button>
+            <div class="range-container">
+                <div class="range-container-box">
+                    <p>Sortear</p>
+                    <input type="number" class="input" id="amount">
+                </div>
+                <div class="range-container-box">
+                    <p>número(s) entre</p>
+                    <input type="number" name="minimo" class="input" id="minimo">
+                </div>
+                <div class="range-container-box">
+                    <p>e</p>
+                    <input type="number" name="maximo" class="input" id="maximo">
+                </div>
+            </div>
+
+            <!--Botões-->
+            <div class="button-container">
+                <button class="button-design" onclick="onClickButton()">Sortear</button>
+                <button class="button-design" onClick="clearButton()">Limpar</button>
+            </div>
         </div>
 
         <!--Caixa com o resultado-->

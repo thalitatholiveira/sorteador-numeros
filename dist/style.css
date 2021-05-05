@@ -8,6 +8,11 @@
     src: url('./fonts/ALEIJADI.OTF') format('opentype');
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #fff8f2;
@@ -21,50 +26,48 @@ a {
     display: flex;
     flex-direction: column;
 
+    justify-content: space-around;
+    align-items: center;
+
+    width: auto;
+    height: auto;
+}
+
+.input-container {
+    margin-top: 10px;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: auto;
+    width: auto;
 }
-
-/*.pic {
-    margin: 0;
-}
-
-.sorteador {
-    margin: 0;
-    height: 13vh;
-    line-height: 10vh;
-
-    font-family: 'Afton James', serif;
-    font-size: 6.5em;
-    color: #94150D;
-}
-
-.de-numeros{
-    margin: 0;
-    line-height: 7vh;
-
-    font-family: 'Aleijadinho', serif;
-    font-size: 3em;
-    color: #94470D;
-}*/
 
 .description {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    width: 37em;
-    height: 1.3em;
-    margin: 25px;
-
-    background-color: #3d1f08;
-    border: none;
-    border-radius: 15px;
-    color: white;
+    background-color: rgb(253, 222, 136);
+    padding: 1rem;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
 }
 
 .range-container {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.range-container-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
 }
 
 .input {
@@ -76,7 +79,14 @@ a {
     border-radius: 5px;
     outline: none;
     text-align: center;
-    margin: 0 0.5rem;
+    margin: 10px;
+}
+
+.button-container {
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 1rem;
 }
 
 .button-design {
@@ -89,6 +99,7 @@ a {
     outline: none;
     height: 2.5rem;
     width: 9rem;
+    margin: 5px;
 }
 
 .button-design:hover {
@@ -120,6 +131,7 @@ a {
 
     justify-content: center;
     align-items: center;
+    text-align: center;
     width: 100vw;
     height: 5vh;
     position: fixed;
